@@ -46,7 +46,7 @@ def main():
     route = nearest_neighbour(matrix)
     numberOfVertex = 10
 
-    for i in range(10):
+    for i in range(100):
         bestDistance = calculateRouteValue(route, matrix)
         for i in range(numberOfVertex):
             for k in range(i + 1, numberOfVertex):
